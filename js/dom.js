@@ -1,2 +1,2 @@
 // console.log('Hello from js');
-console.log(document.getElementById('dom-1'))  
+document.getElementById('dom-1').setAttribute('title','nahid')
