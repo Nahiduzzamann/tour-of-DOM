@@ -1,7 +1,7 @@
 // console.log('Hello from js');
 document.getElementById('dom-1').setAttribute('title','nahid')
 
-const mainContainer = document.getElementById('main-container');
+const mainContainer = document.getElementBy('main-container');
 console.log(mainContainer)
 
 const h1 = document.createElement('h1');
@@ -40,6 +40,7 @@ section.appendChild(h1);
  </ul>
  `
 mainContainer.appendChild(section1)
+
 
 
 
